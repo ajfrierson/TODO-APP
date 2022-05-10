@@ -1,17 +1,18 @@
 import logo from './logo.svg';
-import React, {Component} from 'react';
+import React from 'react';
+import LoginComponent from './components/Login';
+import TodoApp from './components/TodoApp';
 import './App.css';
 
-class App extends Component() {
+
+function App () {
   
-  render() {
     return (
       <div className="App">
-        My Hello World!!
-    
+          <LoginComponent />
+          <TodoApp />
       </div>
     );
-  }
 }
 
 
